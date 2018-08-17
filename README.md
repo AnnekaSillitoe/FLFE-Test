@@ -1,4 +1,4 @@
-###To Run:
+### To Run:
 
 - Clone this repo
 - Run `npm install` or `yarn` to install the project. 
