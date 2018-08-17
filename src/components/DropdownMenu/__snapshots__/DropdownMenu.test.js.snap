@@ -1,0 +1,542 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownMenu renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DropdownMenu />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="dropdown-triangle"
+        />,
+        <div
+          className="dropdown-menu"
+        >
+          <a
+            className="dropdown-header "
+            href="/"
+            name="home"
+            onClick={[Function]}
+          >
+            <div
+              className="icon icon-home"
+            />
+            FutureLearn
+          </a>
+          <div
+            className="dropdown-main-menu"
+          >
+            <a
+              className="dropdown-item "
+              href="/"
+              name="create"
+              onClick={[Function]}
+            >
+              <div
+                className="icon icon-create"
+              />
+              Course Creator
+            </a>
+            <a
+              className="dropdown-item "
+              href="/"
+              name="admin"
+              onClick={[Function]}
+            >
+              <div
+                className="icon icon-admin"
+              />
+              Admin
+            </a>
+          </div>
+        </div>,
+      ],
+      "className": "dropdown-box",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "dropdown-triangle",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              className="dropdown-header "
+              href="/"
+              name="home"
+              onClick={[Function]}
+            >
+              <div
+                className="icon icon-home"
+              />
+              FutureLearn
+            </a>,
+            <div
+              className="dropdown-main-menu"
+            >
+              <a
+                className="dropdown-item "
+                href="/"
+                name="create"
+                onClick={[Function]}
+              >
+                <div
+                  className="icon icon-create"
+                />
+                Course Creator
+              </a>
+              <a
+                className="dropdown-item "
+                href="/"
+                name="admin"
+                onClick={[Function]}
+              >
+                <div
+                  className="icon icon-admin"
+                />
+                Admin
+              </a>
+            </div>,
+          ],
+          "className": "dropdown-menu",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="icon icon-home"
+                />,
+                "FutureLearn",
+              ],
+              "className": "dropdown-header ",
+              "href": "/",
+              "name": "home",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "icon icon-home",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "FutureLearn",
+            ],
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="dropdown-item "
+                  href="/"
+                  name="create"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="icon icon-create"
+                  />
+                  Course Creator
+                </a>,
+                <a
+                  className="dropdown-item "
+                  href="/"
+                  name="admin"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="icon icon-admin"
+                  />
+                  Admin
+                </a>,
+              ],
+              "className": "dropdown-main-menu",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="icon icon-create"
+                    />,
+                    "Course Creator",
+                  ],
+                  "className": "dropdown-item ",
+                  "href": "/",
+                  "name": "create",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon icon-create",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  "Course Creator",
+                ],
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="icon icon-admin"
+                    />,
+                    "Admin",
+                  ],
+                  "className": "dropdown-item ",
+                  "href": "/",
+                  "name": "admin",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon icon-admin",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  "Admin",
+                ],
+                "type": "a",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="dropdown-triangle"
+          />,
+          <div
+            className="dropdown-menu"
+          >
+            <a
+              className="dropdown-header "
+              href="/"
+              name="home"
+              onClick={[Function]}
+            >
+              <div
+                className="icon icon-home"
+              />
+              FutureLearn
+            </a>
+            <div
+              className="dropdown-main-menu"
+            >
+              <a
+                className="dropdown-item "
+                href="/"
+                name="create"
+                onClick={[Function]}
+              >
+                <div
+                  className="icon icon-create"
+                />
+                Course Creator
+              </a>
+              <a
+                className="dropdown-item "
+                href="/"
+                name="admin"
+                onClick={[Function]}
+              >
+                <div
+                  className="icon icon-admin"
+                />
+                Admin
+              </a>
+            </div>
+          </div>,
+        ],
+        "className": "dropdown-box",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "dropdown-triangle",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="dropdown-header "
+                href="/"
+                name="home"
+                onClick={[Function]}
+              >
+                <div
+                  className="icon icon-home"
+                />
+                FutureLearn
+              </a>,
+              <div
+                className="dropdown-main-menu"
+              >
+                <a
+                  className="dropdown-item "
+                  href="/"
+                  name="create"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="icon icon-create"
+                  />
+                  Course Creator
+                </a>
+                <a
+                  className="dropdown-item "
+                  href="/"
+                  name="admin"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="icon icon-admin"
+                  />
+                  Admin
+                </a>
+              </div>,
+            ],
+            "className": "dropdown-menu",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="icon icon-home"
+                  />,
+                  "FutureLearn",
+                ],
+                "className": "dropdown-header ",
+                "href": "/",
+                "name": "home",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "icon icon-home",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "FutureLearn",
+              ],
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    className="dropdown-item "
+                    href="/"
+                    name="create"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="icon icon-create"
+                    />
+                    Course Creator
+                  </a>,
+                  <a
+                    className="dropdown-item "
+                    href="/"
+                    name="admin"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="icon icon-admin"
+                    />
+                    Admin
+                  </a>,
+                ],
+                "className": "dropdown-main-menu",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="icon icon-create"
+                      />,
+                      "Course Creator",
+                    ],
+                    "className": "dropdown-item ",
+                    "href": "/",
+                    "name": "create",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "icon icon-create",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    "Course Creator",
+                  ],
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="icon icon-admin"
+                      />,
+                      "Admin",
+                    ],
+                    "className": "dropdown-item ",
+                    "href": "/",
+                    "name": "admin",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "icon icon-admin",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    "Admin",
+                  ],
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

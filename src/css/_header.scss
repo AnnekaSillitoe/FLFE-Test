@@ -1,0 +1,26 @@
+.header {
+  height: $header-height;
+  border-top: 5px solid $FLPink;
+  background-color: $FLBlack;
+  color: white;
+
+  .header-admin-button {
+    height: 100%;
+    width: 70px;
+    border: none;
+    color: white;
+    background-color: $FLBlue;
+    display: inline-block;
+    vertical-align: top;
+
+    .icon {
+      font-size: 180%;
+    }
+  }
+
+  .header-title {
+    font-size: 1.2em;
+    padding-left: 1rem;
+    display: inline-block;
+  }
+}

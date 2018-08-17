@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+input:hover,
+textarea:hover,
+button:hover,
+a:hover {
+  cursor: pointer; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+input:focus,
+textarea:focus,
+button:focus, a:focus {
+  text-decoration: none;
+  outline: none !important;
+  box-shadow: 0 0 3px 3px rgba(222, 0, 165, 0.9) !important;
+  border-color: #de00a5; }
+
+.header {
+  height: 50px;
+  border-top: 5px solid #de00a5;
+  background-color: #3a343a;
+  color: white; }
+  .header .header-admin-button {
+    height: 100%;
+    width: 70px;
+    border: none;
+    color: white;
+    background-color: #2541fc;
+    display: inline-block;
+    vertical-align: top; }
+    .header .header-admin-button .icon {
+      font-size: 180%; }
+  .header .header-title {
+    font-size: 1.2em;
+    padding-left: 1rem;
+    display: inline-block; }
+
+.dropdown-box {
+  color: #4a4d55;
+  font-size: 0.8rem; }
+  .dropdown-box .dropdown-triangle {
+    z-index: 10;
+    position: relative;
+    background-color: white;
+    box-shadow: 3px -3px 4px -1px #cacacc;
+    width: 0.875rem;
+    height: 0.875rem;
+    margin-top: 10px;
+    margin-left: 27px;
+    transform: rotate(-45deg); }
+  .dropdown-box .dropdown-menu {
+    background-color: white;
+    border-radius: 3px;
+    width: 160px;
+    margin: -8px 10px;
+    box-shadow: 0px 0px 3px 1px #cacacc;
+    color: black;
+    position: relative; }
+    .dropdown-box .dropdown-menu .dropdown-header {
+      display: inline-block;
+      width: 130px;
+      padding: 1rem;
+      box-shadow: 0px 1px 1px -1px #cacacc; }
+    .dropdown-box .dropdown-menu .dropdown-main-menu {
+      padding: 0.5rem 0; }
+    .dropdown-box .dropdown-menu .dropdown-item {
+      display: inline-block;
+      width: 130px;
+      height: 30px;
+      padding: 0.5rem 1rem; }
+    .dropdown-box .dropdown-menu .icon {
+      margin-right: 4px;
+      display: inline-block;
+      font-size: 140%; }
+    .dropdown-box .dropdown-menu .icon-create {
+      font-size: 250%;
+      margin-top: -8px;
+      width: 36px;
+      margin-left: -10px; }
+  .dropdown-box .active {
+    color: #2541fc; }
